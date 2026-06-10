@@ -32,7 +32,7 @@ A Bash script that is part of the fifth section of the project. It describes how
 An XML file that is part of the fifth section of the project. It describes examples of how to convert a urdf file to xacro.
 
 ## six.sh
-A Bash script that is sixth section of the project. It describes how to add more links and joints to a urdf.xacro file. 
+A Bash script that is the sixth section of the project. It describes how to add more links and joints to a urdf.xacro file. 
 
 # These files are located in Sim_sensor_gazebo/instructions
 
@@ -42,3 +42,17 @@ A Bash script that is part of the seventh section of the project. It describes h
 ## seven_b.xml
 An XML file that is part of the seventh section of the project. It describes examples of how to add gazebo support.
 
+## eight_a.sh
+A Bash script that is part of the eighth section of the project. It describes how to connect rviz and gazebo together.
+
+## eight_b.xml
+An XML file that is part of the eighth section of the project. It describes examples of how to connect rviz and gazebo together.
+
+## nine_a.sh
+A Bash script that is part of the ninth section of the project. It describes how to control the robot.
+
+## nine_b.xml
+An XML file that is part of the ninth section of the project. It describes examples of how to control the robot. 
+
+## ten.xml
+An XML file that is tenth section of the project. It describes how to add sensors on the robot. 
