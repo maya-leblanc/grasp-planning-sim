@@ -2,6 +2,8 @@
 
 Each folder has an instructions folder. Inside each instructions folder, there will be multiple files of different programming languages, which in order, describe the methodology of the project. Below is a explaination of the file title and its contents.
 
+# These files are located in sim_sensor_description/instructions/
+
 ## one.sh
 A Bash script that is the first section of the project. It describes how to set up a ROS2 workspace.
 
@@ -27,4 +29,16 @@ A text file that is part of the fourth section of the project. It describes exam
 A Bash script that is part of the fifth section of the project. It describes how to convert a urdf file to xacro. 
 
 ## five_b.xml
-An XML file that is part of the fifth section of the project. It describes examples of how to convert a urdf file to xacro. 
+An XML file that is part of the fifth section of the project. It describes examples of how to convert a urdf file to xacro.
+
+## six.sh
+A Bash script that is sixth section of the project. It describes how to add more links and joints to a urdf.xacro file. 
+
+# These files are located in Sim_sensor_gazebo/instructions
+
+## seven_a.sh 
+A Bash script that is part of the seventh section of the project. It describes how to add gazebo support.
+
+## seven_b.xml
+An XML file that is part of the seventh section of the project. It describes examples of how to add gazebo support.
+
