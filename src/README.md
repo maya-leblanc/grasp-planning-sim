@@ -8,11 +8,23 @@ A Bash script that is the first section of the project. It describes how to set 
 ## two_a.sh
 A Bash script that is part of the second section of the project. It describes what is a URDF file and how to set it up. 
 
-## two_b.sh
+## two_b.xml
 An XML file that is part of the second section of the project. It describes what is a URDF file in full detail and examples.
 
 ## three.sh
 A Bash script that is the third section of the project. It describes how to view robot in RViz without a package.
 
-## four.sh
-A Bash script that is the fourth section of the project. It describes how to create a launch file. 
+## four_a.sh
+A Bash script that is part of the fourth section of the project. It describes how to create a launch file. 
+
+## four_b.py
+A Python file that is part of the fourth section of the project. It describes examples of how to create a launch file. 
+
+## four_c.txt
+A text file that is part of the fourth section of the project. It describes examples of how to create a CMakeLists.txt
+
+## five_a.sh
+A Bash script that is part of the fifth section of the project. It describes how to convert a urdf file to xacro. 
+
+## five_b.xml
+An XML file that is part of the fifth section of the project. It describes examples of how to convert a urdf file to xacro. 

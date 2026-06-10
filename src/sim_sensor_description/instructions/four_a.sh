@@ -1,7 +1,7 @@
 # create your own launch file, which should be inside your package's launch folder
 # ~/ros2_ws/src/my_robot_name/launch/display.launch.py
 
-#
+# example one includes example launch file.
 
 # a display.launch.py file is a specialized ros2 python script designed to spin up all 
 # the ncessesary background programs (nodes) required to calculate your robot's math and 
@@ -22,4 +22,21 @@
 #   robot's structure, loading a preconfigured .rviz configuration file so you dont have to manually
 #   add the robotmodel and tf displays from scratch every time you launch.
 
-# 
+# update CMakeLists.txt to install your folders
+
+# example two includes example CMakeLists.txt
+
+# CMakeLists.txt is a file that tells colcon how to build your package and where to install your
+# files so ROS2 can find them.
+
+# rebuild
+cd ~/ros2_ws
+colcon build --packages-select my_robot_name
+source install/setup.bash
+
+# launch from your package properly
+ros2 launch my_robot_name display.launch.py
+
+# in rviz, configure your displays, set fixed frame, then save file -> save config -> save to 
+# ~/ros2_ws/src/my_robot_name/rviz/view.rviz
+
