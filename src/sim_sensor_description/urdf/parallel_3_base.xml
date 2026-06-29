@@ -1,0 +1,10 @@
+<! base file, applicable for rviz >
+
+<?xml version="1.0"?>
+<robot name="parallel_3" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <! properties for xacro variables >
+
+    <! base link (wrist) >
+
+    <! finger >
